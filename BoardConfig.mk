@@ -137,8 +137,8 @@ TARGET_EXTRA_CFLAGS := $(call cc-option,-mtune=cortex-a9) $(call cc-option,-mcpu
 USE_ALL_OPTIMIZED_STRING_FUNCS := true
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/asus/tf101/prebuilt/kernel
-TARGET_KERNEL_CONFIG := tf101_eos_defconfig
+#TARGET_PREBUILT_KERNEL := device/asus/tf101/prebuilt/kernel
+TARGET_KERNEL_CONFIG := katkernel_lidpatch_defconfig
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/asus/tf101/bluetooth
